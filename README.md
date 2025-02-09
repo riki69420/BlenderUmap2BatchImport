@@ -34,4 +34,4 @@ This script is designed to automate the import of `.umap` files into Blender usi
 
 ```python
 manual_input = False  # Set to True for manual input, False for automatic loading
-umap_directory = r"H:\ToolsForGameRipping\ToolsForGameRipping\unreal engine tools\FModel\Output\Exports"  # Directory to load .umap files from
+umap_directory = r"H:\FModel\Output\Exports"  # Directory to load .umap files from
