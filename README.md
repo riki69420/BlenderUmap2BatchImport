@@ -1,4 +1,4 @@
-# Blender UMAP Batch Import Script
+# Blender 4.3 UMAP Batch Import Script
 
 This script is designed to automate the import of `.umap` files into Blender using the BlenderUmap2 addon. It can either load `.umap` files from a specified directory or manually input them, and it organizes imported objects into a "MAIN" collection.
 
