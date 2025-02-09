@@ -5,7 +5,7 @@ import os
 log_file = "F:\\hogleg\\processed.json"
 manual_input = False  # Set this to True for manual input, False for automatic loading
 
-umap_directory = r"H:\ToolsForGameRipping\ToolsForGameRipping\unreal engine tools\FModel\Output\Exports"  # Directory to load .umap files from
+umap_directory = r"H:\FModel\Output\Exports"  # Directory to load .umap files from
 umap_files = []
 
 if not manual_input:
@@ -23,12 +23,12 @@ else:
     ]
     print(f"Loaded {len(umap_files)} .umap files manually.")
 
-bpy.context.scene.exportPath = "F:\\hogleg\\"
-bpy.context.scene.Game_Path = "F:\\Hogwarts Legacy\\"
-bpy.context.scene.mappings_path = "C:\\Dumper-7\\4.27.2-1117238+++stream+Main_TeamCity_Code-Phoenix\\Mappings\\4.27.2-1117238+++stream+Main_TeamCity_Code-Phoenix.usmap"
+bpy.context.scene.exportPath = "F:\\hogleg\\" # Set export path
+bpy.context.scene.Game_Path = "F:\\Hogwarts Legacy\\" #Set game path
+bpy.context.scene.mappings_path = "C:\\Dumper-7\\4.27.2-1117238+++stream+Main_TeamCity_Code-Phoenix\\Mappings\\4.27.2-1117238+++stream+Main_TeamCity_Code-Phoenix.usmap" #Set custom mappongs
 
 bpy.context.scene.bUseCustomEngineVer = True
-bpy.context.scene.customEngineVer = "GAME_HogwartsLegacy"
+bpy.context.scene.customEngineVer = "GAME_HogwartsLegacy" # Set custom game version
 
 bpy.context.scene.bExportFoliage = False
 bpy.context.scene.bExportLights = False
